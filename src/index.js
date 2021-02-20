@@ -3,7 +3,7 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./app/App";
 
-const answer = true; //window.confirm("Использовать малый объем данных?");
+const answer = window.confirm("Использовать малый объем данных?");
 
 ReactDOM.render(
   <React.StrictMode>
